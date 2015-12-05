@@ -1,0 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d/lisp")
+(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/editorconfig-emacs")
+(load "editorconfig")
+(editorconfig-mode 1)
+(menu-bar-mode -1)

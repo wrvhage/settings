@@ -2,13 +2,14 @@
 source ${HOME}/.bash_colors
 
 # ENVIRONMENT
-export PATH=$PATH:~/bin
+export PATH=~/bin:~/usr/local/bin:$PATH
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # ALIASES
 alias ls="ls -AFskh"
 alias top="top -o cpu"
+alias e="emacs"
 
 # GIT
 parse_git_branch() {
