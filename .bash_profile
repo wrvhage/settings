@@ -2,7 +2,7 @@
 source ${HOME}/.bash_colors
 
 # ENVIRONMENT
-export PATH=~/bin:~/usr/local/bin:$PATH
+export PATH=~/bin:~/usr/local/bin:/Applications/Racket\ v6.3/bin:$PATH
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 

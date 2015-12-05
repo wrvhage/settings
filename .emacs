@@ -15,6 +15,17 @@
   (require 'package)
   (add-to-list
    'package-archives
-   '("melpa" . "http://melpa.org/packages/")
-   t)
+   '("melpa" . "http://melpa.org/packages/") t)
+  (add-to-list
+   'package-archives
+   '("marmalade" . "http://marmalade-repo.org/packages/") t)
   (package-initialize))
+
+;; Racket mode
+(add-hook 'racket-mode-hook
+	  (lambda ()
+	    (define-key racket-mode-map (kbd "C-c r") 'racket-run)))
+
+(add-hook 'scheme-mode-hook 'geiser-mode)
+(setq geiser-active-implementations '(racket))
+
