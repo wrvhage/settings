@@ -4,7 +4,6 @@
 ;; make the tab key do indent AND completion
 (set-default 'tab-always-indent 'complete)
 
-
 ;; Editor config
 (add-to-list 'load-path "/usr/local/share/emacs/site-lisp/editorconfig-emacs")
 (load "editorconfig")
@@ -26,6 +25,5 @@
 	  (lambda ()
 	    (define-key racket-mode-map (kbd "C-c r") 'racket-run)))
 
-(add-hook 'scheme-mode-hook 'geiser-mode)
+(add-hook 'scheme-mode-hook 'racket-mode)
 (setq geiser-active-implementations '(racket))
-

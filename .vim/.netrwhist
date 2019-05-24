@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/wrvhage/Programming/concept-search/webserver'
+let g:netrw_dirhist_2='/Users/wrvhage/Programming/eStep.github.io/_layouts'
+let g:netrw_dirhist_3='/Users/wrvhage/Programming/software.esciencecenter.nl'
+let g:netrw_dirhist_4='/Users/wrvhage/Programming/ESMValTool/interface_scripts'
